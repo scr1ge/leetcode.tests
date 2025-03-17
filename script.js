@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 
 // Изображения
 const elonImg = new Image();
-elonImg.src = "https://image.pngaaa.com/520/3538520-middle.png"; // Голова Илона Маска
+elonImg.src = "https://64.media.tumblr.com/392cc1e2ac8033d35c7cb750ae24cbcb/tumblr_natl1shKNv1sppjk5o1_500.png"; // Голова Илона Маска
 
 const pipeTopImg = new Image();
 pipeTopImg.src = "https://png.klev.club/uploads/posts/2024-05/png-klev-club-yak6-p-kamennaya-kladka-png-3.png"; // Верхняя труба
@@ -12,7 +12,7 @@ const pipeBottomImg = new Image();
 pipeBottomImg.src = "https://png.klev.club/uploads/posts/2024-05/png-klev-club-yak6-p-kamennaya-kladka-png-3.png"; // Нижняя труба
 
 // Настройки игры
-let elon = { x: 50, y: 150, width: 40, height: 40, gravity: 0.1, lift: -8, velocity: 3 };
+let elon = { x: 50, y: 150, width: 40, height: 40, gravity: 0.4, lift: -8, velocity: 3 };
 let pipes = [];
 let frame = 0;
 let score = 0;
