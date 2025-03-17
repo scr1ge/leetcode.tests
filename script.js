@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 
 // Изображения
 const elonImg = new Image();
-elonImg.src = "https://64.media.tumblr.com/392cc1e2ac8033d35c7cb750ae24cbcb/tumblr_natl1shKNv1sppjk5o1_500.png"; // Голова Илона Маска
+elonImg.src = "https://i.pinimg.com/originals/32/68/9d/32689d192fcf97a92c93493324269646.png"; // Голова Илона Маска
 
 const pipeTopImg = new Image();
 pipeTopImg.src = "https://png.klev.club/uploads/posts/2024-05/png-klev-club-yak6-p-kamennaya-kladka-png-3.png"; // Верхняя труба
