@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 
 // Изображения
 const elonImg = new Image();
-elonImg.src = "https://c0.klipartz.com/pngpicture/61/647/gratis-png-taiga-aisaka-toradora-chibi-anime-tristes.png"; // Голова Илона Маска
+elonImg.src = "https://image.pngaaa.com/520/3538520-middle.png"; // Голова Илона Маска
 
 const pipeTopImg = new Image();
 pipeTopImg.src = "https://png.klev.club/uploads/posts/2024-05/png-klev-club-yak6-p-kamennaya-kladka-png-3.png"; // Верхняя труба
