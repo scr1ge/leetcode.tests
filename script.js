@@ -12,7 +12,7 @@ const pipeBottomImg = new Image();
 pipeBottomImg.src = "https://png.klev.club/uploads/posts/2024-05/png-klev-club-yak6-p-kamennaya-kladka-png-3.png"; // Нижняя труба
 
 // Настройки игры
-let elon = { x: 50, y: 150, width: 40, height: 40, gravity: 0.6, lift: -8, velocity: 1 };
+let elon = { x: 50, y: 150, width: 40, height: 40, gravity: 0.2, lift: -8, velocity: 3 };
 let pipes = [];
 let frame = 0;
 let score = 0;
@@ -72,7 +72,7 @@ function checkCollision() {
 // Сброс игры
 function resetGame() {
     elon.y = 150;
-    elon.velocity = 0;
+    elon.velocity = 3;
     pipes = [];
     score = 0;
     frame = 0;
