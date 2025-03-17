@@ -12,7 +12,7 @@ const pipeBottomImg = new Image();
 pipeBottomImg.src = "https://png.klev.club/uploads/posts/2024-05/png-klev-club-yak6-p-kamennaya-kladka-png-3.png"; // Нижняя труба
 
 // Настройки игры
-let elon = { x: 50, y: 150, width: 40, height: 40, gravity: 0.4, lift: -8, velocity: 1 };
+let elon = { x: 50, y: 150, width: 40, height: 40, gravity: 0.3, lift: -8, velocity: 3 };
 let pipes = [];
 let frame = 0;
 let score = 0;
@@ -50,7 +50,7 @@ function drawPipes() {
 // Обновление позиции труб
 function updatePipes() {
     if (frame % 160 === 0) { // Увеличен интервал между появлением труб
-        let topHeight = Math.random() * (canvas.height / 2) + 50; // Случайная высота верхней трубы
+        let topHeight = Math.random() * (canvas.height / 2) + 70; // Случайная высота верхней трубы
         pipes.push({ x: canvas.width, width: 60, top: topHeight, bottom: topHeight + pipeGap });
     }
 
