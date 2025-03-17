@@ -3,16 +3,16 @@ const ctx = canvas.getContext("2d");
 
 // Изображения
 const elonImg = new Image();
-elonImg.src = "https://i.imgur.com/NhU5Xov.png"; // Голова Илона Маска
+elonImg.src = "https://c0.klipartz.com/pngpicture/61/647/gratis-png-taiga-aisaka-toradora-chibi-anime-tristes.png"; // Голова Илона Маска
 
 const pipeTopImg = new Image();
-pipeTopImg.src = "https://i.imgur.com/4ZQZQ9u.png"; // Верхняя труба
+pipeTopImg.src = "https://png.klev.club/uploads/posts/2024-05/png-klev-club-yak6-p-kamennaya-kladka-png-3.png"; // Верхняя труба
 
 const pipeBottomImg = new Image();
-pipeBottomImg.src = "https://i.imgur.com/4ZQZQ9u.png"; // Нижняя труба
+pipeBottomImg.src = "https://png.klev.club/uploads/posts/2024-05/png-klev-club-yak6-p-kamennaya-kladka-png-3.png"; // Нижняя труба
 
 // Настройки игры
-let elon = { x: 50, y: 150, width: 40, height: 40, gravity: 0.3, lift: -8, velocity: 0 };
+let elon = { x: 50, y: 150, width: 40, height: 40, gravity: 0.8, lift: -8, velocity: 0 };
 let pipes = [];
 let frame = 0;
 let score = 0;
