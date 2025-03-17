@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+canvas {
+    background: url('https://source.unsplash.com/random/800x600/?galaxy') no-repeat center;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
